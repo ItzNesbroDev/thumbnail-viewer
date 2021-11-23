@@ -1,39 +1,27 @@
-<h1 align="center">Welcome to Thumbnial-Viewer 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-  <a href="https://twitter.com/ItzNesbro" target="_blank">
-    <img alt="Twitter: ItzNesbro" src="https://img.shields.io/twitter/follow/ItzNesbro.svg?style=social" />
-  </a>
-</p>
+<h1 align="center">Welcome To Yt Thumbnail Viewer📦</h1>
 
-> You Can Download Youtube Thumbnails Useing This Package
+# Table Of Contents
+- [Installation](#installtion)
+- [Usage](#usage)
+<hr>
 
-## Install
 
+# Installation
 ```sh
-yarn install yt-thumbnail-viewer
+$ npm install yt-thumbnail-viewer
+// Or
+$ yarn add yt-thumbnail-viewer
 ```
 
-## Ueage
+# Usage
 ```js
-const thumbnailViewer = require("yt-thumbnail-viewer");
+const thumbnail = require("yt-thumbnail-viewer");
 
-let Demo = thumbnailViewer("Youtube Video Url!")
+let Demo = thumbnail("Youtube Video Url")
 
-console.log(Demo)// Console The Thumbnial Url
+console.log(Demo) // It Will Console The Thumbnail Url
 ```
+<hr>
 
-## Author
-
-👤 **ItzNesbro**
-
-* Website: [ItzNesbro.netlify.app](https://itznesbro.netlify.app)
-* Twitter: [@ItzNesbro](https://twitter.com/ItzNesbro)
-* Github: [@ItzNesbroDev](https://github.com/ItzNesbroDev)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
+# Show Your Support
+ Give A ⭐ if this package helped you!
