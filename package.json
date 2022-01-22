@@ -1,6 +1,6 @@
 {
   "name": "yt-thumbnail-viewer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "You Can Download Youtube Thumbnails Useing This Package",
   "main": "src/index.js",
   "repository": "https://github.com/ItzNesbroDev/thumbnail-viewer",
