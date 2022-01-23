@@ -1,8 +1,27 @@
 <h1 align="center">Welcome To Yt Thumbnail Viewer📦</h1>
 
-[Docs](https://docs.page/ItzNesbroDev/thumbnail-viewer)
+## ✨ Installation
 
-<hr>
+```sh
+$ npm i yt-thumbnail-viewer
+# or
+$ yarn add yt-thumbnail-viewer
+```
 
-# Show Your Support
- Give A ⭐ if this package helped you!
+## 💫 Example Code
+
+```js
+const thumbnail = require("yt-thumbnail-viewer");
+const url = thumbnail("https://youtu.be/Wch3gJG2GJ4"); // paste a youtube url
+console.log(url); // return the img url
+```
+
+## ⛓️ Todo
+
+- [ ] Add More Quality Options
+- [x] Create Cdn For Html Js
+
+## 🕸️ Author
+
+- Github [ItzNesbroDev](https://github.com/ItzNesbroDev)
+- Twitter [@ItzNesbro](https://twitter.com/ItzNesbro)
