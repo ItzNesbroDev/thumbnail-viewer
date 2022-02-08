@@ -1,5 +1,5 @@
 {
-  "name": "yt-thumbnail-viewer",
+  "name": "@itznesbrodeveloper/yt-thumbnail-viewer",
   "version": "0.0.5",
   "description": "You Can Download Youtube Thumbnails Useing This Package",
   "main": "src/index.js",
