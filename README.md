@@ -3,15 +3,15 @@
 ## ✨ Installation
 
 ```sh
-$ npm i yt-thumbnail-viewer
+$ npm i @itznesbrodeveloper/yt-thumbnail-viewer
 # or
-$ yarn add yt-thumbnail-viewer
+$ yarn add @itznesbrodeveloper/yt-thumbnail-viewer
 ```
 
 ## 💫 Example Code
 
 ```js
-const thumbnail = require("yt-thumbnail-viewer");
+const { thumbnailViewer } = require("@itznesbrodeveloper/yt-thumbnail-viewer");
 const url = thumbnail("https://youtu.be/Wch3gJG2GJ4"); // paste a youtube url
 console.log(url); // return the img url
 ```

@@ -1,6 +1,6 @@
 import getYoutubeId from "get-youtube-id";
 
-export default function (url: any) {
+export default function Viewer(url: string) {
   let id = getYoutubeId(url);
 
   if (!id && url.length === 11) {
