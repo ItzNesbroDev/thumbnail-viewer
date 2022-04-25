@@ -12,7 +12,7 @@ $ yarn add @itznesbrodeveloper/yt-thumbnail-viewer
 
 ```js
 const { thumbnailViewer } = require("@itznesbrodeveloper/yt-thumbnail-viewer");
-const url = thumbnail("https://youtu.be/Wch3gJG2GJ4"); // paste a youtube url
+const url = thumbnailViewer("https://youtu.be/Wch3gJG2GJ4"); // paste a youtube url
 console.log(url); // return the img url
 ```
 
