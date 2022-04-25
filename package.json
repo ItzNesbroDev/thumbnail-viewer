@@ -1,12 +1,19 @@
 {
   "name": "@itznesbrodeveloper/yt-thumbnail-viewer",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "You Can Download Youtube Thumbnails Useing This Package",
   "main": "index.js",
   "repository": "https://github.com/ItzNesbroDev/thumbnail-viewer",
   "author": "ItzNesbro",
   "license": "MIT",
+  "scripts": {
+    "test": "ts-node tests/index.ts"
+  },
   "dependencies": {
     "get-youtube-id": "^1.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
   }
 }

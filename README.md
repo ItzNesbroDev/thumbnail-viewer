@@ -16,11 +16,6 @@ const url = thumbnail("https://youtu.be/Wch3gJG2GJ4"); // paste a youtube url
 console.log(url); // return the img url
 ```
 
-## ⛓️ Todo
-
-- [ ] Add More Quality Options
-- [x] Create Cdn For Html Js
-
 ## 🕸️ Author
 
 - Github [ItzNesbroDev](https://github.com/ItzNesbroDev)
