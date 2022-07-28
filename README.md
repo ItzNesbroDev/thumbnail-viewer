@@ -1,4 +1,4 @@
-<h1 align="center">Welcome To Yt Thumbnail Viewer📦</h1>
+<h1 align="center">Welcome To Youtube Thumbnail Viewer📦</h1>
 
 ## ✨ Installation
 
