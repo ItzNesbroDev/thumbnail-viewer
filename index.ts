@@ -1,1 +1,1 @@
-export { thumbnailViewer } from "./src/index";
+export { thumbnailViewer } from "./src/thumbnail-viewer";
