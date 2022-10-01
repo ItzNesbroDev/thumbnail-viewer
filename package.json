@@ -1,19 +1,37 @@
 {
-  "name": "@itznesbro/yt-thumbnail-viewer",
-  "version": "0.0.9",
-  "description": "You Can Download Youtube Thumbnails Useing This Package",
-  "main": "index.js",
+  "name": "@itznesbro/thumbnail-viewer",
+  "version": "0.0.0",
+  "description": "View Or Download Youtube Video Thumbnails Using This Package.",
   "repository": "https://github.com/ItzNesbroDev/thumbnail-viewer",
-  "author": "ItzNesbro",
+  "author": "ItzNesbroDev",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "ts-node tests/index.ts"
+    "build-fast": "tsup src/index.ts --format cjs,esm",
+    "build": "pnpm run build-fast -- --dts-resolve",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@2nthony/prettier-config": "1.0.1",
+    "prettier": "2.7.1",
+    "tsup": "^6.2.3",
+    "typescript": "4.5.4",
+    "vitest": "^0.23.4"
   },
   "dependencies": {
     "get-youtube-id": "^1.0.1"
-  },
-  "devDependencies": {
-    "ts-node": "^10.7.0",
-    "typescript": "^4.6.3"
   }
 }
